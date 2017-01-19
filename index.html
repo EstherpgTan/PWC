@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PWC form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.js"></script>
+  <script src="main.js"></script>
+
+</head>
+<body>
+
+  <h1>Sign up for the Newsletter</h1>
+  <form action="cgi-bin/formmail.pl" method="post">
+
+<div>
+Large div for the whole thing
+Div: title bar
+Div: For the rest of the form
+50%
+input tag: label or 2 divs
+form tag ?
+
+  //position: relative
+</div>
+     Full Name<br>
+     <input type="text" name="Full Name" value="" size="25" maxlength="50" id=first />
+     Email
+     <input type="text" name="Email" value="" size="25" maxlength="50" id=second />
+
+
+     <p>Which newsletters would you like to receive ?</p>
+     <div class="dropdown"</div>
+       <select>
+     <button onclick="myFunction()" class="dropbtn">Please choose...<div class="arrow-down"></div></button>
+     <div id="myDropdown" class="dropdown-content">
+    <a href="State of the Australian Economy">State of the Australian Economy</a>
+    <a href="Our Investment Portfolios">Our Investment Portfolios</a>
+    <a href="Strategic Advice">Strategic Advice</a>
+  </select>
+  </div>
+</div>
+    <p>How often would you like updates ?</p>
+    <form action="demo_form.asp">
+  <input type="checkbox" name="dayoftheweek" value="Daily"> Daily
+  <input type="checkbox" name="dayoftheweek" value="Weekly" checked> Weekly
+  <input type="checkbox" name="dayoftheweek" value="Monthly"> Monthly<br>
+
+<input type="checkbox" name="termsandconditions" value="Agree to our terms and conditions">Agree to our terms and conditions<br>
+<input type="Cancel" name="Cancel" value="Cancel" />
+<input type="sign up" name="sign up" value="Sign up >" />
+</form>
+</body>
+</html>
